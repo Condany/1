@@ -21,9 +21,6 @@
 .main>.meeting>.meeting_middle{
     width: 31%;
 }
-li.active{
-    font-weight:bolder;
-}
 .list li{
     list-style: disc;
     line-height: 32px;
@@ -49,6 +46,10 @@ li.active{
 .main>.interview>.interview_left>div>img{
     width: 100%;
     margin-bottom: 20px;
+    transition: all 0.3s;
+}
+.main>.interview>.interview_left>div>img:hover{
+    transform: scale(1.03);
 }
 
 .main>.interview>.interview_right{

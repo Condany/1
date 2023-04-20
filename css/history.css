@@ -39,30 +39,34 @@
     height: 56px;
     line-height: 56px;
 }
+.main>.bigthing>.time>ul>li:hover{
+    background-color: red;
+    color: #fff;
+}
 .main>.bigthing>.time>ul>li.active{
     background-color: red;
     color: #fff;
 }
 .main>.bigthing>.left{
     position: absolute;
-    left: 0;
-    top: 90px;
+    left: 15px;
+    top: 96px;
     width: 40px;
     height: 40px;
     background-image: url(../img/left1.png);
     background-position :2px center;
-    background-size:40px auto;
+    background-size:25px auto;
     background-repeat:no-repeat;
 }
 .main>.bigthing>.right{
     position: absolute;
     right: 0;
-    top: 90px;
+    top: 96px;
     width: 40px;
     height: 40px;
     background-image: url(../img/right1.png);
     background-position :2px center;
-    background-size:40px auto;
+    background-size:25px auto;
     background-repeat:no-repeat;
 }
 .main>.bigthing>.thing{

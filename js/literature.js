@@ -2,6 +2,7 @@ let ospan = document.querySelectorAll('.literature_left>span')
 let oul = document.querySelectorAll('.literature_left>ul')
 for(let i = 0;i<ospan.length;i++){
     ospan[i].setAttribute('flog',0)
+    ospan[0].setAttribute('flog',1)
     ospan[i].onclick=function(){
         if(this.getAttribute('flog')==1){
             oul[i].style.display='none'

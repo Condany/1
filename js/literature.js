@@ -1,11 +1,20 @@
 let ospan = document.querySelectorAll('.literature_left>span')
 let oul = document.querySelectorAll('.literature_left>ul')
 for(let i = 0;i<ospan.length;i++){
+    ospan[i].setAttribute('flog',0)
     ospan[i].onclick=function(){
-        for(let j=0;j<ospan.length;j++){
-            oul[j].style.display='none'
+        if(this.getAttribute('flog')==1){
+            oul[i].style.display='none'
+            this.setAttribute('flog',0)
+        }else{
+            for(let j=0;j<ospan.length;j++){
+                oul[j].style.display='none'
+                ospan[j].setAttribute('flog',0)
+            }
+            this.setAttribute('flog',1)
+            oul[i].style.display='block'
         }
-        oul[i].style.display='block'
+
     }
 
 }

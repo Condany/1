@@ -51,8 +51,11 @@
 }
 .main>.interview>.interview_left>div>img{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     transition: all 0.3s;
+}
+.main>.interview>.interview_left>div>span{
+    font-size: 15px;
 }
 .main>.interview>.interview_left>div>img:hover{
     transform: scale(1.03);

@@ -38,6 +38,7 @@
 }
 .main>.literature>.literature_left>ul>li.active{
     background-color: #eceaea;
+    color: red;
 }
 .main>.literature>.literature_right{
     float: right;

@@ -35,6 +35,9 @@
     float: right;
     width: 950px;
 }
+.list>ul>li>div.right>h2{
+    font-size: 16px;
+}
 .list>ul>li>div.right>p{
     text-indent: 1cm;
 }

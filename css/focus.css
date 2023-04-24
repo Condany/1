@@ -122,6 +122,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: space-between;
 }
 .main>.live>.live_list>div{
     width: 380px;

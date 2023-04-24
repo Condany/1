@@ -348,7 +348,7 @@ hr{
 }
 .bottom_top>h3{
     font-size: 16px;
-    margin-left: 10px;
+    margin-left: 25px;
     color: #f30707;
 }
 .bottom_top>a{
@@ -371,7 +371,7 @@ hr{
     width: 331px;
     margin: 0 auto;
 }
-.bottom_btm> ul li{
+.bottom_btm>ul li{
     width: 100%;
     height: 130px;
     margin-top: 22px;

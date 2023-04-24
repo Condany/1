@@ -43,14 +43,14 @@ div.btns>span{
 }
 div.btns>span:first-child{
     left:0;
-    background-image: url(../img/left.png);
+    background-image: url(../img/left1.png);
     background-position :2px center;
     background-size:40px auto;
     background-repeat:no-repeat;
 }
 div.btns>span:last-child{
     right:0;
-    background-image: url(../img/right.png);
+    background-image: url(../img/right1.png);
     background-position :8px center;
     background-size:40px auto;
     background-repeat:no-repeat;

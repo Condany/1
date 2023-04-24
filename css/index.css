@@ -358,6 +358,7 @@ hr{
 .bottom_btm{
     width: 100%;
     height: 360px;
+    box-sizing: border-box;
     border: 1px solid #D6A8A6;
 }
 .bottom_btm>h3>a{
